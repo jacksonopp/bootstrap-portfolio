@@ -1,59 +1,121 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+     <head>
+          <meta charset="UTF-8" />
+          <meta
+               name="viewport"
+               content="width=device-width, initial-scale=1.0"
+          />
+          <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+          <title>Contact</title>
 
-<head>
-    <title>Jackson Oppenheim Portfolio</title>
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="assets/css/header.css">
-    <link rel="stylesheet" href="assets/css/content.css">
+          <!-- Bootstrap Begin -->
+          <link
+               rel="stylesheet"
+               href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+               integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+               crossorigin="anonymous"
+          />
+          <!-- Bootstrap End -->
+     </head>
+     <body class="bg-dark">
+          <!-- nav container -->
+          <div class="text-center">
+               <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <a class="navbar-brand" href="#">
+                         <img
+                              src="http://www.fillmurray.com/30/30"
+                              width="30"
+                              height="30"
+                              alt=""
+                              class="rounded"
+                         />Jackson Oppenheim
+                    </a>
+                    <button
+                         class="navbar-toggler"
+                         type="button"
+                         data-toggle="collapse"
+                         data-target="#navbarNavAltMarkup"
+                         aria-controls="navbarNavAltMarkup"
+                         aria-expanded="false"
+                         aria-label="Toggle navigation"
+                    >
+                         <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div
+                         class="collapse navbar-collapse"
+                         id="navbarNavAltMarkup"
+                    >
+                         <div class="navbar-nav">
+                              <a class="nav-item nav-link" href="./index.html"
+                                   >About</a
+                              >
+                              <a
+                                   class="nav-item nav-link active"
+                                   href="./contact.html"
+                                   >Contact</a
+                              >
+                              <a
+                                   class="nav-item nav-link"
+                                   href="./portfolio.html"
+                                   >Portfolio</a
+                              >
+                         </div>
+                    </div>
+               </nav>
+          </div>
+          <!-- main body -->
+          <div class="container bg-light mt-3 pt-2 pb-2">
+               <div class="row">
+                    <div class="col">
+                         <h1>Contact Me</h1>
+                         <hr />
+                    </div>
+               </div>
+               <div class="row">
+                    <div class="col">
+                         <form>
+                              <div class="form-group">
+                                   <label for="Name">Name</label>
+                                   <input
+                                        type="text"
+                                        class="form-control"
+                                        id="Name"
+                                        placeholder="Firstname Lastname"
+                                   />
+                              </div>
+                              <div class="form-group">
+                                   <label for="Name">Email</label>
+                                   <input
+                                        type="email"
+                                        class="form-control"
+                                        id="email"
+                                        placeholder="name@website.com"
+                                   />
+                              </div>
 
-</head>
-
-<body>
-    <!--Header-->
-    <div class="header">
-        <div class="headerContent">
-            <div class="logo" id="lightText">
-                <p>Jackson Oppenheim</p>
-            </div>
-            <div class="navigation">
-                <ul class="nav">
-                    <li><a href="index.html">About</a></li>
-                    <li><span>|</span></li>
-                    <li><a href="portfolio.html">Portfolio</a></li>
-                    <li><span>|</span></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
-            </div>
-        </div>
-    </div>
-    <!--Content-->
-    <div class="mainBody">
-        <div class="content">
-            <h1>Contact Me</h1>
-            <hr />
-            <form class="contactForm">
-                <span>Name</span>
-                <br>
-                <input type="text" name="Name" placeholder="Firstname Lastname">
-                <br>
-                <span>Email</span>
-                <br>
-                <input type="text" name="Email" placeholder="name@website.com">
-                <br>
-                <span>Message</span>
-                <br>
-                <textarea name="Message"></textarea>
-                <br>
-                <button id="lightText" name="Submit" value="Submit" class="submitButton">Submit</button>
-            </form>
-        </div>
-    </div>
-    <footer class="footer">
-        <div id="lightText">
-            <p>Copyright &copy; Jackson Oppenheim 2019</p>
-        </div>
-    </footer>
-</body>
-
+                              <div class="form-group">
+                                   <label for="exampleFormControlTextarea1"
+                                        >Example textarea</label
+                                   >
+                                   <textarea
+                                        class="form-control"
+                                        id="exampleFormControlTextarea1"
+                                        rows="3"
+                                   ></textarea>
+                              </div>
+                              <button type="button" class="btn btn-outline-primary">Submit</button>
+                         </form>
+                    </div>
+               </div>
+          </div>
+          <!-- footer -->
+          <div class="text-center bg-light fixed-bottom border-top border-info">
+               <footer>
+                    <p>
+                         &copy; Copyright 2019
+                    </p>
+               </footer>
+          </div>
+     </body>
 </html>

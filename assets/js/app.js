@@ -44,6 +44,15 @@ const apps = [
         gitHub: "https://github.com/jacksonopp/GifTastic",
         appLink: "https://jacksonopp.github.io/GifTastic/"
     },
+    {
+        appName: "triviaGame",
+        src: "./assets/images/triviaGame.png",
+        alt: "a screenshot of a coen brothers trivia game",
+        title: "Coen Brothers Trivia Game",
+        description: "A timed trivia quiz about the Cohen Brothers. How much do you know about the filmmaking duo?",
+        gitHub: "https://github.com/jacksonopp/triviaGame",
+        appLink: "https://jacksonopp.github.io/triviaGame/"
+    },
 
 
 

@@ -53,6 +53,15 @@ const apps = [
         gitHub: "https://github.com/jacksonopp/triviaGame",
         appLink: "https://jacksonopp.github.io/triviaGame/"
     },
+    {
+        appName: "tracTrek",
+        src: "./assets/images/triviaGame.png",
+        alt: "a screenshot of a music playlist app",
+        title: "TrackTrek",
+        description: "An app to create a playlist based on drive time",
+        gitHub: "https://github.com/jacksonopp/TeamCharmander",
+        appLink: "https://jacksonopp.github.io/TeamCharmander/"
+    }
 
 
 

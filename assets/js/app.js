@@ -54,8 +54,8 @@ const apps = [
         appLink: "https://jacksonopp.github.io/triviaGame/"
     },
     {
-        appName: "tracTrek",
-        src: "./assets/images/triviaGame.png",
+        appName: "trackTrek",
+        src: "./assets/images/trackTrek.png",
         alt: "a screenshot of a music playlist app",
         title: "TrackTrek",
         description: "An app to create a playlist based on drive time",
@@ -96,7 +96,7 @@ function makeCards() {
         cardBody.append(cardText);
         //githubLink
         const githubLink = document.createElement("a");
-        githubLink.classList.add("btn", "btn-outline-success");
+        githubLink.classList.add("btn", "btn-outline-success", "mr-1");
         githubLink.setAttribute("href", apps[i].gitHub);
         githubLink.setAttribute("target", "_blank");
         githubLink.innerText = "Github";

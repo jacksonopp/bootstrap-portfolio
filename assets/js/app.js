@@ -1,39 +1,12 @@
 const apps = [
     {
-        appName: "word guess",
-        src: "./assets/images/hangman.png",
-        alt: "a screenshot of a hangman game",
-        title: "Die wundersame Herausforderung der Bierstile!",
-        description: "A simple hangman-style game where you try to guess different beer styles.",
-        gitHub: "https://github.com/jacksonopp/word-guess-game",
-        appLink: "https://jacksonopp.github.io/word-guess-game/"
-    },
-    {
-        appName: "crystal guess",
-        src: "./assets/images/crystalGame.png",
-        alt: "a screenshot of a game with 4 crystals",
-        title: "The Crystal Game",
-        description: "Each crystal has a different value. Can you get the correct score?",
-        gitHub: "https://github.com/jacksonopp/unit-4-game",
-        appLink: "https://jacksonopp.github.io/unit-4-game/"
-    },
-    {
-        appName: "nyt search",
-        src: "./assets/images/nytSearch.png",
-        alt: "a screenshot of an app for searching the New York Times",
-        title: "New York Times Search",
-        description: "Search for articles using the New York Times API.",
-        gitHub: "https://github.com/jacksonopp/nytSearch",
-        appLink: "https://jacksonopp.github.io/nytSearch/"
-    },
-    {
-        appName: "trainTime",
-        src: "./assets/images/trainTime.png",
-        alt: "a screenshot of a train time calculator",
-        title: "Train Time",
-        description: "Input train frequency and arrival times, and the app will calculate when the next scheduled arrival is. Using localForage, the app remembers your trains from previous sessions.",
-        gitHub: "https://github.com/jacksonopp/trainTime",
-        appLink: "https://jacksonopp.github.io/trainTime/"
+        appName: "trackTrek",
+        src: "./assets/images/trackTrek.png",
+        alt: "a screenshot of a music playlist app",
+        title: "TrackTrek",
+        description: "An app to create a playlist based on drive time",
+        gitHub: "https://github.com/jacksonopp/TeamCharmander",
+        appLink: "https://jacksonopp.github.io/TeamCharmander/"
     },
     {
         appName: "gifTastic",
@@ -54,19 +27,41 @@ const apps = [
         appLink: "https://jacksonopp.github.io/triviaGame/"
     },
     {
-        appName: "trackTrek",
-        src: "./assets/images/trackTrek.png",
-        alt: "a screenshot of a music playlist app",
-        title: "TrackTrek",
-        description: "An app to create a playlist based on drive time",
-        gitHub: "https://github.com/jacksonopp/TeamCharmander",
-        appLink: "https://jacksonopp.github.io/TeamCharmander/"
+        appName: "nyt search",
+        src: "./assets/images/nytSearch.png",
+        alt: "a screenshot of an app for searching the New York Times",
+        title: "New York Times Search",
+        description: "Search for articles using the New York Times API.",
+        gitHub: "https://github.com/jacksonopp/nytSearch",
+        appLink: "https://jacksonopp.github.io/nytSearch/"
+    },
+    {
+        appName: "trainTime",
+        src: "./assets/images/trainTime.png",
+        alt: "a screenshot of a train time calculator",
+        title: "Train Time",
+        description: "Input train frequency and arrival times, and the app will calculate when the next scheduled arrival is. Using localForage, the app remembers your trains from previous sessions.",
+        gitHub: "https://github.com/jacksonopp/trainTime",
+        appLink: "https://jacksonopp.github.io/trainTime/"
+    },
+    {
+        appName: "word guess",
+        src: "./assets/images/hangman.png",
+        alt: "a screenshot of a hangman game",
+        title: "Die wundersame Herausforderung der Bierstile!",
+        description: "A simple hangman-style game where you try to guess different beer styles.",
+        gitHub: "https://github.com/jacksonopp/word-guess-game",
+        appLink: "https://jacksonopp.github.io/word-guess-game/"
+    },
+    {
+        appName: "crystal guess",
+        src: "./assets/images/crystalGame.png",
+        alt: "a screenshot of a game with 4 crystals",
+        title: "The Crystal Game",
+        description: "Each crystal has a different value. Can you get the correct score?",
+        gitHub: "https://github.com/jacksonopp/unit-4-game",
+        appLink: "https://jacksonopp.github.io/unit-4-game/"
     }
-
-
-
-
-
 ]
 
 function makeCards() {
